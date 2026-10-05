@@ -26,13 +26,18 @@ pyq_ent/
 │   ├── Kerala_SET_General_Paper_Teaching_Aptitude/ # Kerala SET Paper I General / Teaching Aptitude
 │   ├── LBS_MCA_Entrance/                  # Kerala MCA Entrance Examination Answer Keys (2023-2026)
 │   └── LBS_Other_Entrance/                # LBS Nursing & Paramedical Previous Year Papers
+├── LDC/                                   # Lower Division Clerk (LDC / Clerk) Examination Archive
+│   ├── Kerala_PSC_LDC_District_Mains/     # District-wise LDC Papers with Answer Keys (2011-2024)
+│   ├── Kerala_PSC_10th_Level_Preliminary/ # 10th Level Screening Exams for LDC (2021-2026)
+│   └── Kerala_PSC_LDC_Official/           # Latest 2026 Official KPSC Clerk Papers & Final Answer Keys
 ├── syllabus/                              # Year-wise Official Syllabi & Curriculum Blueprints
 │   ├── GATE/DA/                           # GATE DA 2024, 2025, 2026 + Overlap (CS, ST, MA, GA) + CMI
 │   ├── CUSAT/PH/                          # CUSAT CAT UG (2024-2026) & PG M.Sc Physics Syllabi
 │   ├── CUSAT/MT/                          # CUSAT CAT UG (2024-2026) & PG M.Sc Mathematics Syllabi
 │   ├── JAM/PH/                            # IIT JAM Physics (2025, 2026) + Brochures + CMI PG Physics
 │   ├── JAM/MT/                            # IIT JAM Mathematics & Statistics (2025, 2026) + CMI PG Math
-│   └── LBS/                               # Kerala SET (Paper I, Physics, Maths, Stats) + Prospectuses + MCA
+│   ├── LBS/                               # Kerala SET (Paper I, Physics, Maths, Stats) + Prospectuses + MCA
+│   └── LDC/                               # Kerala PSC LDC, 10th Prelims & SSC CHSL LDC Syllabi
 └── scripts/                               # Reproducible download and generator scripts
 ```
 
@@ -106,7 +111,11 @@ Official curriculum documents, topic breakdowns, and examination pattern bluepri
 * **LBS MCA Entrance:**
   * `LBS_MCA_Entrance_Official_Prospectus_and_Syllabus.pdf`
 
-*(Convenience symlinks `syllabus/GATE_DA`, `syllabus/CUSAT_PH`, `syllabus/CUSAT_MT`, `syllabus/JAM_PH`, and `syllabus/JAM_MT` are also provided).*
+### 7. `syllabus/LDC/` (Lower Division Clerk)
+* `Kerala_PSC_LDC_Official_Syllabus_Malayalam_English.pdf`: Official Detailed Syllabus for Clerk (Cat. No: 503/2023, 504/2023) across History, Geography, Economics, Constitution, Science, Malayalam, English, and Mental Ability.
+* `Kerala_PSC_10th_Level_Preliminary_Official_Syllabus.pdf`: Official blueprint and mark distribution for 10th Level Common Preliminary Screening Examination.
+* `Kerala_PSC_LDC_Mains_Official_Syllabus_and_Exam_Pattern.pdf`: Complete mark-wise syllabus breakdown for LDC Main Exam (100 Marks).
+* `SSC_CHSL_LDC_Tier1_and_Tier2_Official_Syllabus.pdf`: Official syllabus and exam pattern for Central Government LDC / JSA recruitment.
 
 ---
 
@@ -154,11 +163,50 @@ Official curriculum documents, topic breakdowns, and examination pattern bluepri
 * **LBS MCA Entrance:** Official revised answer keys for 2023, 2024, 2025, and 2026.
 * **LBS Other Entrances:** Previous question paper for Post Basic B.Sc Nursing.
 
+### 5. LDC (Lower Division Clerk / Kerala Public Service Commission)
+
+#### `LDC/Kerala_PSC_LDC_District_Mains` (30 Papers with Official Keys)
+* **2024 District Papers:**
+  * `LDC_2024_Thiruvananthapuram_Question_Paper_with_Answer_Key.pdf`
+  * `LDC_2024_Kollam_Kannur_Question_Paper_with_Answer_Key.pdf`
+  * `LDC_2024_Thrissur_Pathanamthitta_Kasargod_Question_Paper_with_Answer_Key.pdf`
+  * `LDC_2024_Kottayam_Kozhikode_Question_Paper_with_Answer_Key.pdf`
+  * `LDC_2024_Malappuram_Idukki_Question_Paper_with_Answer_Key.pdf`
+  * `LDC_2024_Special_Recruitment_052_2024_Question_Paper_with_Answer_Key.pdf`
+* **2023 & 2021 Papers:**
+  * `LDC_2023_Clerk_Accountant_Cashier_239_2023_Question_Paper_with_Answer_Key.pdf`
+  * `LDC_2021_Clerk_Mains_117_2021_Question_Paper_with_Answer_Key.pdf`
+  * `LDC_2021_ExServicemen_100_2021_Question_Paper_with_Answer_Key.pdf`
+* **2017 District Papers:**
+  * Kollam, Thrissur, Kasaragod (`077/2017`), Pathanamthitta, Palakkad (`084/2017`), Kottayam, Wayanad (`095/2017`), Ernakulam, Kannur (`078/2017`), Idukki, Alappuzha, Kozhikode (`079/2017`).
+* **2014 District Papers:**
+  * Idukki (`025/2014`), Ernakulam (`001/2014`), Malappuram (`024/2014`), Palakkad (`017/2014`), Kozhikode (`007/2014`), Various (`002/2014`).
+* **2013 District Papers:**
+  * Various (`147/2013`, `154/2013`), Pathanamthitta (`162/2013`), Kasaragod (`148/2013`).
+* **2011 District Papers:**
+  * Wayanad (`058/2011`), Kozhikode (`064/2011`), Kottayam (`063/2011`), Ernakulam (`057/2011`), Alappuzha (`069/2011`), Pathanamthitta (`050/2011`).
+
+#### `LDC/Kerala_PSC_10th_Level_Preliminary` (22 Papers across All Stages)
+* **2026:** Stage 1 (`66/2026` with Answer Key) and Stage 2 (`67/2026`).
+* **2024:** Stage 1 (`185/2024`) and Stage 5 (`013/2024`).
+* **2023:** Stages 1, 2, 3, 4 (`202/2023`, `224/2023`, `233/2023`, `239/2023`) & Session B Stages 1, 2, 3, 4 (`141/2023`, `154/2023`, `166/2023`, `184/2023`).
+* **2022:** Stages 1, 2, 3, 4, 5, 6 (`053/2022`, `060/2022`, `068/2022`, `071/2022`, `076/2022`, `077/2022`).
+* **2021:** Stages 1, 2, 3, 4, 5 (`029/2021`, `030/2021`, `031/2021`, `032/2021`, `084/2021`).
+
+#### `LDC/Kerala_PSC_LDC_Official` (Latest 2026 Papers & Final Keys)
+* `Kerala_PSC_2026_Clerk_088_2026_Question_Paper_Malayalam.pdf`
+* `Kerala_PSC_2026_Clerk_088_2026_Question_Paper_Tamil.pdf`
+* `Kerala_PSC_2026_Clerk_088_2026_Question_Paper_Kannada.pdf`
+* `Kerala_PSC_2026_Clerk_088_2026_Provisional_Answer_Key.pdf`
+* `Kerala_PSC_2026_Clerk_088_2026_Answer_Key_Tamil.pdf`
+* `Kerala_PSC_2026_Clerk_088_2026_Answer_Key_Kannada.pdf`
+* `Kerala_PSC_2026_LDC_080_2026_Stage_II_Final_Answer_Key.pdf`
+
 ---
 
 ## Verification & Statistics
 
-* **Total PDF Documents:** 194 (151 Question Papers & Solutions + 43 Official Syllabi)
-* **Total Storage:** ~174 MB
+* **Total PDF Documents:** 257 (210 Question Papers, Answer Keys & Solutions + 47 Official Syllabi)
+* **Total Storage:** ~271 MB
 * **Integrity:** Every single PDF verified with standard `%PDF-` header magic bytes.
 * **Formats:** Official examination authority PDFs + high-fidelity headless Chrome rendered compilations.
