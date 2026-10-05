@@ -38,6 +38,10 @@ pyq_ent/
 │   ├── JAM/MT/                            # IIT JAM Mathematics & Statistics (2025, 2026) + CMI PG Math
 │   ├── LBS/                               # Kerala SET (Paper I, Physics, Maths, Stats) + Prospectuses + MCA
 │   └── LDC/                               # Kerala PSC LDC, 10th Prelims & SSC CHSL LDC Syllabi
+├── extracted/                             # Topic-wise extracted PYQs in Markdown with detailed solutions
+│   └── probability/                       # Probability & Statistics PYQs (Year-wise)
+│       ├── 2024.md                        # GATE DA 2024 Official Paper + Sample Paper
+│       └── 2025.md                        # GATE DA 2025 Official Paper + GATE CS 2025 S1
 └── scripts/                               # Reproducible download and generator scripts
 ```
 
@@ -201,6 +205,20 @@ Official curriculum documents, topic breakdowns, and examination pattern bluepri
 * `Kerala_PSC_2026_Clerk_088_2026_Answer_Key_Tamil.pdf`
 * `Kerala_PSC_2026_Clerk_088_2026_Answer_Key_Kannada.pdf`
 * `Kerala_PSC_2026_LDC_080_2026_Stage_II_Final_Answer_Key.pdf`
+
+---
+
+## Extracted Questions: Probability & Statistics (`extracted/probability/`)
+
+Topic-wise extracted questions transcribed with exact LaTeX mathematical notation, question types, marks, official answer keys, and step-by-step solutions:
+
+* **[`extracted/probability/2024.md`](extracted/probability/2024.md):**
+  * **GATE DA 2024 Official Paper:** 16 Probability & Statistics questions (Q.3, Q.7, Q.11, Q.12, Q.20, Q.24, Q.27, Q.34, Q.36, Q.56, Q.57, Q.58, Q.59, Q.62, Q.64, Q.65) covering Counting, Poisson & Normal distributions, Independence, Naïve Bayes, Bayesian Networks, Descriptive Statistics, Exponential distribution, Bayes' theorem, Joint PDFs, and Covariance.
+  * **GATE DA 2024 Official Sample Paper (IISc):** 13 Probability & Statistics questions (Q.4, Q.7, Q.8, Q.9, Q.10, Q.20, Q.28, Q.32, Q.33, Q.36, Q.45, Q.47, Q.53) covering Combinatorics, Conditional Probability, Pearson Correlation, Likelihood Weighting, Uniform RVs, and Statistical Estimation.
+
+* **[`extracted/probability/2025.md`](extracted/probability/2025.md):**
+  * **GATE DA 2025 Official Paper:** 16 Probability & Statistics questions (Q.10, Q.11, Q.19, Q.20, Q.21, Q.26, Q.31, Q.35, Q.36, Q.39, Q.40, Q.41, Q.45, Q.54, Q.60, Q.61) covering Expectation of discrete distributions, Law of Total Expectation, CDF & Quantiles, Normal RV transformations, Exponential memoryless property, Bayesian network inference algorithms, Bayes' theorem ball urn models, Naïve Bayes misclassification, Chi-squared distribution, Central Limit Theorem Bernoulli approximation, Exponential floor transformations, Estimator variance, Covariance matrix maximum variance direction, and Binomial expectation.
+  * **GATE CS 2025 (Session 1):** 4 overlapping probability questions (Q.8, Q.32, Q.56, Q.58) on Binomial dice rolls, Bayes coin problems, Noisy channels, and Continuous density functions.
 
 ---
 
