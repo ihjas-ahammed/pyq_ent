@@ -40,8 +40,10 @@ pyq_ent/
 │   └── LDC/                               # Kerala PSC LDC, 10th Prelims & SSC CHSL LDC Syllabi
 ├── extracted/                             # Topic-wise extracted PYQs in Markdown with detailed solutions
 │   └── probability/                       # Probability & Statistics PYQs (Year-wise)
-│       ├── 2024.md                        # GATE DA 2024 Official Paper + Sample Paper
-│       └── 2025.md                        # GATE DA 2025 Official Paper + GATE CS 2025 S1
+│       ├── 2024.md                        # GATE DA 2024 Official Paper + Sample Paper (Sorted by Difficulty)
+│       ├── 2025.md                        # GATE DA 2025 Official Paper + GATE CS 2025 S1 (Sorted by Difficulty)
+│       └── year_source.md                 # Academic Source & Origin Attribution (Book, Person, GATE Exclusive)
+├── year_source.md                         # Root copy of academic source attribution
 └── scripts/                               # Reproducible download and generator scripts
 ```
 
@@ -218,7 +220,8 @@ Topic-wise extracted questions transcribed with exact LaTeX mathematical notatio
 
 * **[`extracted/probability/2025.md`](extracted/probability/2025.md):**
   * **GATE DA 2025 Official Paper:** 16 Probability & Statistics questions (Q.10, Q.11, Q.19, Q.20, Q.21, Q.26, Q.31, Q.35, Q.36, Q.39, Q.40, Q.41, Q.45, Q.54, Q.60, Q.61) covering Expectation of discrete distributions, Law of Total Expectation, CDF & Quantiles, Normal RV transformations, Exponential memoryless property, Bayesian network inference algorithms, Bayes' theorem ball urn models, Naïve Bayes misclassification, Chi-squared distribution, Central Limit Theorem Bernoulli approximation, Exponential floor transformations, Estimator variance, Covariance matrix maximum variance direction, and Binomial expectation.
-  * **GATE CS 2025 (Session 1):** 4 overlapping probability questions (Q.8, Q.32, Q.56, Q.58) on Binomial dice rolls, Bayes coin problems, Noisy channels, and Continuous density functions.
+* **[`year_source.md`](year_source.md) / [`extracted/probability/year_source.md`](extracted/probability/year_source.md):**
+  * **Comprehensive Academic Source Attribution:** Maps every single question across all papers to its foundational textbook (Sheldon Ross, Bertsekas & Tsitsiklis, Russell & Norvig, Bishop, Mitchell, Hogg & Craig), historic mathematicians/theorists (Kolmogorov, Bayes, Markov, Pearson, Fisher, Pearl, Shannon), and GATE-exclusive custom design contexts.
 
 ---
 
