@@ -1,6 +1,6 @@
 # PYQ Entrance (`pyq_ent`)
 
-Comprehensive repository of Previous Year Question (PYQ) papers, official answer keys, and detailed solutions for premier competitive and university entrance examinations in India.
+Comprehensive repository of Previous Year Question (PYQ) papers, official answer keys, detailed solutions, and **year-wise official syllabi** for premier competitive and university entrance examinations in India.
 
 ---
 
@@ -9,7 +9,7 @@ Comprehensive repository of Previous Year Question (PYQ) papers, official answer
 ```
 pyq_ent/
 ├── GATE/
-│   └── DA/                                # GATE Data Science & Artificial Intelligence (DA)
+│   └── DA/                                # GATE Data Science & Artificial Intelligence (DA) PYQs
 │       ├── Official/                      # Official IISc Bangalore & IIT Roorkee Question Papers & Keys
 │       ├── Books_and_Compilations/        # Gate Overflow DA PYQ Book & Engineering Mathematics
 │       └── Similar_Exams/                 # CMI MSc Data Science (2018-2025), GATE CS & ST 2025
@@ -26,16 +26,93 @@ pyq_ent/
 │   ├── Kerala_SET_General_Paper_Teaching_Aptitude/ # Kerala SET Paper I General / Teaching Aptitude
 │   ├── LBS_MCA_Entrance/                  # Kerala MCA Entrance Examination Answer Keys (2023-2026)
 │   └── LBS_Other_Entrance/                # LBS Nursing & Paramedical Previous Year Papers
+├── syllabus/                              # Year-wise Official Syllabi & Curriculum Blueprints
+│   ├── GATE/DA/                           # GATE DA 2024, 2025, 2026 + Overlap (CS, ST, MA, GA) + CMI
+│   ├── CUSAT/PH/                          # CUSAT CAT UG (2024-2026) & PG M.Sc Physics Syllabi
+│   ├── CUSAT/MT/                          # CUSAT CAT UG (2024-2026) & PG M.Sc Mathematics Syllabi
+│   ├── JAM/PH/                            # IIT JAM Physics (2025, 2026) + Brochures + CMI PG Physics
+│   ├── JAM/MT/                            # IIT JAM Mathematics & Statistics (2025, 2026) + CMI PG Math
+│   └── LBS/                               # Kerala SET (Paper I, Physics, Maths, Stats) + Prospectuses + MCA
 └── scripts/                               # Reproducible download and generator scripts
 ```
 
 ---
 
-## Detailed Directory Contents
+## Syllabi (`syllabus/<exam>`)
+
+Official curriculum documents, topic breakdowns, and examination pattern blueprints for each exam:
+
+### 1. `syllabus/GATE/DA/`
+* **GATE DA (Data Science & AI):**
+  * `GATE_2024_DA_Data_Science_and_AI_Official_Syllabus.pdf` (IISc Bangalore — Inaugural Session)
+  * `GATE_2025_DA_Data_Science_and_AI_Official_Syllabus.pdf` (IIT Roorkee)
+  * `GATE_2026_DA_Data_Science_and_AI_Official_Syllabus.pdf` (IIT Guwahati)
+* **General Aptitude (GA):**
+  * `GATE_2024_GA_General_Aptitude_Official_Syllabus.pdf`
+  * `GATE_2025_GA_General_Aptitude_Official_Syllabus.pdf`
+  * `GATE_2026_GA_General_Aptitude_Official_Syllabus.pdf`
+* **Overlapping / Similar Disciplines:**
+  * `GATE_2025_CS_Computer_Science_Official_Syllabus.pdf`
+  * `GATE_2026_CS_Computer_Science_Official_Syllabus.pdf`
+  * `GATE_2025_ST_Statistics_Official_Syllabus.pdf`
+  * `GATE_2026_ST_Statistics_Official_Syllabus.pdf`
+  * `GATE_2025_MA_Mathematics_Official_Syllabus.pdf`
+  * `GATE_2026_MA_Mathematics_Official_Syllabus.pdf`
+  * `CMI_MSc_Data_Science_Official_Syllabus.pdf`
+
+### 2. `syllabus/CUSAT/PH/` (Physics)
+* **Undergraduate & 5-Year Integrated M.Sc (NCERT Class XI & XII Standard, Test Code 101):**
+  * `CUSAT_CAT_2026_Physics_Syllabus_and_Exam_Pattern.pdf`
+  * `CUSAT_CAT_2025_Physics_Syllabus_and_Exam_Pattern.pdf`
+  * `CUSAT_CAT_2024_Physics_Syllabus_and_Exam_Pattern.pdf`
+  * `CUSAT_CAT_UG_Physics_Official_Syllabus.pdf`
+* **Post-Graduate M.Sc Physics (B.Sc Standard, Test Code 612):**
+  * `CUSAT_CAT_PG_MSc_Physics_Official_Syllabus.pdf` (Mathematical Physics, Classical Mechanics, EMT, Quantum Mechanics, Thermodynamics & Statistical Mechanics, Solid State, Electronics & Nuclear Physics)
+
+### 3. `syllabus/CUSAT/MT/` (Mathematics)
+* **Undergraduate & 5-Year Integrated M.Sc (NCERT Class XI & XII Standard, Test Code 101):**
+  * `CUSAT_CAT_2026_Mathematics_Syllabus_and_Exam_Pattern.pdf`
+  * `CUSAT_CAT_2025_Mathematics_Syllabus_and_Exam_Pattern.pdf`
+  * `CUSAT_CAT_2024_Mathematics_Syllabus_and_Exam_Pattern.pdf`
+  * `CUSAT_CAT_UG_Mathematics_Official_Syllabus.pdf`
+* **Post-Graduate M.Sc Mathematics (B.Sc Standard, Test Code 611):**
+  * `CUSAT_CAT_PG_MSc_Mathematics_Official_Syllabus.pdf` (Real Analysis, Linear Algebra, Abstract Algebra, Complex Analysis, Differential Equations, Topology, Numerical Analysis & Probability)
+
+### 4. `syllabus/JAM/PH/` (Physics)
+* `JAM_2026_Physics_Official_Syllabus.pdf` (IIT Bombay)
+* `JAM_2025_Physics_Official_Syllabus.pdf` (IIT Delhi)
+* `JAM_2026_Official_Admission_Brochure_with_Syllabus.pdf`
+* `JAM_2025_Official_Information_Brochure_with_Syllabus.pdf`
+* `CMI_PG_Physics_Official_Syllabus.pdf`
+
+### 5. `syllabus/JAM/MT/` (Mathematics & Statistics)
+* `JAM_2026_Mathematics_Official_Syllabus.pdf` (IIT Bombay)
+* `JAM_2026_Mathematical_Statistics_Official_Syllabus.pdf` (IIT Bombay)
+* `JAM_2025_Mathematics_Official_Syllabus.pdf` (IIT Delhi)
+* `JAM_2025_Mathematical_Statistics_Official_Syllabus.pdf` (IIT Delhi)
+* `JAM_2026_Official_Admission_Brochure_with_Syllabus.pdf`
+* `JAM_2025_Official_Information_Brochure_with_Syllabus.pdf`
+* `CMI_PG_Mathematics_Official_Syllabus.pdf`
+
+### 6. `syllabus/LBS/` (Kerala SET & LBS Entrances)
+* **Kerala State Eligibility Test (SET):**
+  * `Kerala_SET_All_Subjects_Official_Syllabus.pdf` (Comprehensive master syllabus for all 31 subjects)
+  * `Kerala_SET_Paper_I_General_Knowledge_and_Teaching_Aptitude_Official_Syllabus.pdf`
+  * `Kerala_SET_Paper_II_Physics_Official_Syllabus.pdf` (Subject Code 24)
+  * `Kerala_SET_Paper_II_Mathematics_Official_Syllabus.pdf` (Subject Code 21)
+  * `Kerala_SET_Paper_II_Statistics_Official_Syllabus.pdf` (Subject Code 31)
+  * `Kerala_SET_2026_July_Official_Prospectus.pdf`
+  * `Kerala_SET_2026_January_Official_Prospectus.pdf`
+* **LBS MCA Entrance:**
+  * `LBS_MCA_Entrance_Official_Prospectus_and_Syllabus.pdf`
+
+*(Convenience symlinks `syllabus/GATE_DA`, `syllabus/CUSAT_PH`, `syllabus/CUSAT_MT`, `syllabus/JAM_PH`, and `syllabus/JAM_MT` are also provided).*
+
+---
+
+## PYQ Papers & Answer Keys
 
 ### 1. GATE / DA (Data Science & Artificial Intelligence)
-GATE DA was introduced in 2024. This directory contains official papers, compilations, and similar high-yield exams covering Probability, Statistics, Linear Algebra, Machine Learning, and Programming:
-
 * **Official GATE DA:**
   * `GATE_2024_DA_Question_Paper_Official.pdf`: Official Master Question Paper (IISc Bangalore).
   * `GATE_2024_DA_Final_Answer_Key_Official.pdf`: Official Final Answer Key (IISc Bangalore).
@@ -44,72 +121,44 @@ GATE DA was introduced in 2024. This directory contains official papers, compila
   * `GATE_2025_DA_Final_Answer_Key_Official.pdf`: Official Final Answer Key (IIT Roorkee).
 * **Books & Compilations:**
   * `GATEOverflow_DA_Complete_PYQ_Book.pdf`: Full GATE Overflow question compilation for Data Science & AI.
-  * `GATE_Engineering_Mathematics_PYQs.pdf`: Complete Engineering Mathematics compilation (Linear Algebra, Calculus, Probability).
+  * `GATE_Engineering_Mathematics_PYQs.pdf`: Complete Engineering Mathematics compilation.
 * **Similar Exams:**
-  * **Chennai Mathematical Institute (CMI) MSc Data Science (2018–2025):** Complete past question papers, official answer keys, step-by-step solutions, and syllabus.
-  * **GATE CS 2025 (Sessions 1 & 2):** Master Question Papers & Answer Keys for overlapping CS, discrete math, data structures, and algorithms.
+  * **CMI MSc Data Science (2018–2025):** Complete past question papers, official answer keys, and step-by-step solutions.
+  * **GATE CS 2025 (Sessions 1 & 2):** Master Question Papers & Answer Keys for overlapping CS/DS topics.
   * **GATE Statistics (ST) 2025:** Master Question Paper & Answer Key for mathematical statistics and probability.
 
----
-
 ### 2. CUSAT (Cochin University of Science and Technology)
-
-#### `CUSAT/PH` (Physics)
-* `CUSAT_CAT_2025_Physics_PYQ_with_Solutions.pdf`: Complete 75 Physics questions from CUSAT CAT 2025 with multiple-choice options, official keys, and detailed step-by-step explanations.
-* `CUSAT_CAT_2023_Physics_Chemistry_Maths_Solved_Paper.pdf`: Full solved test paper with answers and solutions.
-* `CUSAT_CAT_2022_Physics_Chemistry_Maths_Solved_Paper.pdf`: Full solved test paper with answers and solutions.
-* `CUSAT_CAT_2021_Physics_Chemistry_Maths_Solved_Paper.pdf`: Full solved test paper with answers and solutions.
-* `CUSAT_CAT_2019_Physics_Chemistry_Maths_Solved_Paper.pdf`: Full solved test paper with answers and solutions.
-* `CUSAT_CAT_2018_Physics_Chemistry_Maths_Solved_Paper.pdf`: Full solved test paper with answers and solutions.
-
-#### `CUSAT/MT` (Mathematics)
-* `CUSAT_CAT_2025_Mathematics_PYQ_with_Solutions.pdf`: Complete 90 Mathematics questions from CUSAT CAT 2025 with multiple-choice options, official keys, and detailed step-by-step explanations.
-* `CUSAT_CAT_2023_Physics_Chemistry_Maths_Solved_Paper.pdf`: Full solved test paper with answers and solutions.
-* `CUSAT_CAT_2022_Physics_Chemistry_Maths_Solved_Paper.pdf`: Full solved test paper with answers and solutions.
-* `CUSAT_CAT_2021_Physics_Chemistry_Maths_Solved_Paper.pdf`: Full solved test paper with answers and solutions.
-* `CUSAT_CAT_2019_Physics_Chemistry_Maths_Solved_Paper.pdf`: Full solved test paper with answers and solutions.
-* `CUSAT_CAT_2018_Physics_Chemistry_Maths_Solved_Paper.pdf`: Full solved test paper with answers and solutions.
-
----
+* **`CUSAT/PH` (Physics):**
+  * `CUSAT_CAT_2025_Physics_PYQ_with_Solutions.pdf`: Complete 75 Physics questions from CUSAT CAT 2025 with options, official keys, and step-by-step explanations.
+  * Solved test papers with answers and solutions for 2023, 2022, 2021, 2019, and 2018.
+* **`CUSAT/MT` (Mathematics):**
+  * `CUSAT_CAT_2025_Mathematics_PYQ_with_Solutions.pdf`: Complete 90 Mathematics questions from CUSAT CAT 2025 with options, official keys, and step-by-step explanations.
+  * Solved test papers with answers and solutions for 2023, 2022, 2021, 2019, and 2018.
 
 ### 3. JAM (Joint Admission Test for Masters)
-
-#### `JAM/PH` (Physics)
-* **IIT JAM Physics Question Papers:** Consecutive year-wise papers from **2012 to 2025** (`JAM_2012_Physics_Question_Paper.pdf` to `JAM_2025_Physics_Question_Paper.pdf`).
-* **IIT JAM Master Paper & Answer Key:** `JAM_Physics_Question_Paper_Master.pdf` & `JAM_Physics_Final_Answer_Key.pdf`.
-* **Similar Exams (CMI PG Physics):** Chennai Mathematical Institute postgraduate physics entrance examination papers and solutions (2011 to 2016).
-
-#### `JAM/MT` (Mathematics & Mathematical Statistics)
-* **IIT JAM Mathematics (MA):** Consecutive year-wise papers from **2012 to 2025** (`JAM_2012_Mathematics_Question_Paper.pdf` to `JAM_2025_Mathematics_Question_Paper.pdf`), plus Master Paper and Official Answer Key.
-* **IIT JAM Mathematical Statistics (MS):** Consecutive year-wise papers from **2012 to 2025** (`JAM_2012_Mathematical_Statistics_Question_Paper.pdf` to `JAM_2025_Mathematical_Statistics_Question_Paper.pdf`), plus Master Paper and Official Answer Key.
-* **Similar Exams (CMI PG Mathematics):** Chennai Mathematical Institute postgraduate mathematics entrance examination papers and solutions (2018 to 2025).
-
----
+* **`JAM/PH` (Physics):**
+  * Consecutive year-wise papers from **2012 to 2025** (`JAM_2012_Physics_Question_Paper.pdf` to `JAM_2025_Physics_Question_Paper.pdf`).
+  * Master Question Paper and Official Final Answer Key.
+  * CMI PG Physics papers and solutions (2011 to 2016).
+* **`JAM/MT` (Mathematics & Mathematical Statistics):**
+  * IIT JAM Mathematics (MA) consecutive papers from **2012 to 2025** + Master Paper and Answer Key.
+  * IIT JAM Mathematical Statistics (MS) consecutive papers from **2012 to 2025** + Master Paper and Answer Key.
+  * CMI PG Mathematics papers and solutions (2018 to 2025).
 
 ### 4. LBS (LBS Centre for Science & Technology, Kerala)
-
-#### Kerala State Eligibility Test (SET)
-* **Physics (Subject Code 24):** Question papers for all sessions from 2023 January to 2026 January (`SET_2023_January` through `SET_2026_January`).
-* **Mathematics (Subject Code 21):** Question papers for all sessions from 2023 January to 2026 January.
-* **Statistics (Subject Code 31):** Question papers for all sessions from 2023 January to 2026 January.
-* **General Paper / Teaching Aptitude (Subject Code 36):** Question papers for all sessions from 2023 January to 2026 January.
-* **Answer Key:** `SET_2026_Jan_Revised_Answer_Key_All_Subjects.pdf`.
-
-#### LBS MCA Entrance Examination
-* Official revised answer keys and exam question keys for Kerala MCA Entrance Examination:
-  * `LBS_MCA_2026_Entrance_Revised_Answer_Key.pdf`
-  * `LBS_MCA_2025_Entrance_Revised_Answer_Key.pdf`
-  * `LBS_MCA_2024_Entrance_Answer_Key.pdf`
-  * `LBS_MCA_2023_Entrance_Revised_Answer_Key.pdf`
-
-#### LBS Other Entrances
-* `LBS_Nursing_Entrance_Previous_Question_Paper.pdf`: LBS Post Basic B.Sc Nursing entrance previous question paper.
+* **Kerala SET Physics:** Consecutive papers from 2023 January to 2026 January.
+* **Kerala SET Mathematics:** Consecutive papers from 2023 January to 2026 January.
+* **Kerala SET Statistics:** Consecutive papers from 2023 January to 2026 January.
+* **Kerala SET General Paper:** Consecutive papers from 2023 January to 2026 January.
+* **Kerala SET Answer Key:** Revised answer key for all subjects.
+* **LBS MCA Entrance:** Official revised answer keys for 2023, 2024, 2025, and 2026.
+* **LBS Other Entrances:** Previous question paper for Post Basic B.Sc Nursing.
 
 ---
 
 ## Verification & Statistics
 
-* **Total PDF Documents:** 151
-* **Total Storage:** ~147.8 MB
-* **Integrity:** Every PDF verified with standard `%PDF-` header magic bytes.
-* **Formats:** Official scanner & publisher PDFs + high-fidelity headless Chrome rendered question compilations with full LaTeX/MathJax and explanations.
+* **Total PDF Documents:** 194 (151 Question Papers & Solutions + 43 Official Syllabi)
+* **Total Storage:** ~174 MB
+* **Integrity:** Every single PDF verified with standard `%PDF-` header magic bytes.
+* **Formats:** Official examination authority PDFs + high-fidelity headless Chrome rendered compilations.
